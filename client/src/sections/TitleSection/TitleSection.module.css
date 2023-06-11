@@ -1,25 +1,32 @@
 .image_div {
-    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    background-image: url("../../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 /* Default height for small devices */
 #intro_example {
-    height: 400px;
+    height: 500px;
 }
 
 .mask {
     background-color: rgba(0, 0, 0, 0.6);
-    height: 400px;
+    height: 500px;
 }
 
 /* Height for devices larger than 992px */
 @media (min-width: 992px) {
     .mask {
         background-color: rgba(0, 0, 0, 0.6);
-        height: 600px;
+        height: 800px;
     }
 
     #intro_example {
-        height: 600px;
+        height: 800px;
     }
+}
+
+.title_text {
+    font-family: 'Oswald';
 }

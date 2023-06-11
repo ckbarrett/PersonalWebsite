@@ -10,7 +10,7 @@ import {
     MDBCollapse,
     MDBIcon
 } from 'mdb-react-ui-kit';
-import Logo from '../../assets/Logo.png';
+import Signature from '../../assets/signature.png';
 
 export default function Navbar() {
     const [showNav, setShowNav] = useState(false);
@@ -19,12 +19,11 @@ export default function Navbar() {
         <MDBNavbar sticky expand='lg' dark bgColor='dark'>
             <MDBContainer fluid>
                 <MDBNavbarBrand href='#'><img
-                    src={Logo}
+                    src={Signature}
                     height='30'
                     alt=''
                     loading='lazy'
                 />
-                    Christian Barrett
                 </MDBNavbarBrand>
                 <MDBNavbarToggler
                     type='button'
