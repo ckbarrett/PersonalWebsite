@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import styles from "./ProjectSection.module.css";
-import pfp from "../../assets/pfp.jpg";
+import comingSoon from "../../assets/coming-soon.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 export default function ProjectSection() {
   const projects = [
-    { image_path: pfp, text: "Project 1" },
-    { image_path: pfp, text: "Project 2" },
-    { image_path: pfp, text: "Project 3" },
-    { image_path: pfp, text: "Project 4" },
-    { image_path: pfp, text: "Project 5" },
+    { image_path: comingSoon, text: "Project 1" },
+    { image_path: comingSoon, text: "Project 2" },
+    { image_path: comingSoon, text: "Project 3" },
+    { image_path: comingSoon, text: "Project 4" },
+    { image_path: comingSoon, text: "Project 5" },
     // Add more projects as needed
   ];
 
