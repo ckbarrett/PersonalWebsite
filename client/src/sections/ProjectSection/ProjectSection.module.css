@@ -1,0 +1,24 @@
+  .card {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .card_image {
+    border-radius: 5%;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+    0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow effect */
+    caret-color: transparent;
+  }
+
+  .card_text {
+    font-size: x-large;
+  }
+
+  .carousel_container {
+    padding: 20px 0;
+  }
+ 
