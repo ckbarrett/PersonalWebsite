@@ -31,6 +31,7 @@ export default function ProjectSection() {
   return (
     <div id="projects" className={styles.carousel_container}>
       <Carousel
+        className={styles.carousel}
         swipeable={false}
         draggable={false}
         showDots={true}
@@ -52,6 +53,9 @@ export default function ProjectSection() {
           </div>
         ))}
       </Carousel>
+      <div className={styles.scroll_container}>
+        <a class="fa fa-angle-down page-scroll" href="#resume"></a>
+      </div>
     </div>
   );
 }

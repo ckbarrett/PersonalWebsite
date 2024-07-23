@@ -1,11 +1,11 @@
   .card {
-    padding: 50px;
+    padding-bottom: 1.5rem;
     text-align: center;
   }
   
   .card_image {
     border-radius: 5%;
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     display: block;
     margin: 10px auto;
@@ -19,6 +19,16 @@
   }
 
   .carousel_container {
-    padding: 20px 0;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .scroll_container {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .scroll_container a{
+    color: black;
+    font-size: xx-large;
   }
  
