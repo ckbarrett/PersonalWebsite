@@ -1,24 +1,31 @@
   .section_container {
-    background-color: #eefcfe;
+    background-color: #FAF9F6;
     padding: 10rem 5rem;
   }
   .content_container {
     display: flex;
     align-items: center;
   }
+
+  @keyframes riseIn {
+    from {
+      opacity: 0;
+      transform: translateY(50vh); /* End at the original position */
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .animation_container{
+        animation: riseIn linear;
+        animation-timeline: view();
+        animation-range-start: cover;
+        animation-range-end: 30vh;
+    }
+  }
   
   .image_container {
     flex: 1;
     max-width: 33.33%;
-    transform: translateY(20px); /* Start slightly below */
-    animation: riseIn 2s forwards; /* Apply the animation */
-  }
-  
-  @keyframes riseIn {
-    to {
-      opacity: 1;
-      transform: translateY(0); /* End at the original position */
-    }
   }
 
   .image_container img {

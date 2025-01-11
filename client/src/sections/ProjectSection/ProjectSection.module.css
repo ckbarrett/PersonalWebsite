@@ -1,6 +1,7 @@
   .card {
     padding-bottom: 1.5rem;
     text-align: center;
+    font-family: 'Oswald';
   }
   
   .card_image {
@@ -18,9 +19,14 @@
     font-size: x-large;
   }
 
-  .carousel_container {
+  .section_container {
     padding: 2rem 0 2rem 0;
+    height:100vh;
     background-color: rgb(253, 252, 234);
+  }
+
+  .carousel_container {
+    margin-top: 8vh;
   }
 
   .scroll_container {
