@@ -7,7 +7,7 @@ const ResumeSection = () => {
 		"1.5+ years of experience as a full-stack engineer",
 		"Expert with modern front-end web technologies",
 		"Proven track record of delivering high-quality projects on time",
-		"Excellent in customer engagement and research",
+		"Excellent customer engagement and research",
 		"Strong problem-solving and analytical skills",
 	];
 
