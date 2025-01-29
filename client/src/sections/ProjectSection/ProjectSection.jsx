@@ -1,17 +1,40 @@
 import React from "react";
 import styles from "./ProjectSection.module.css";
-import comingSoon from "../../assets/coming-soon.jpg";
+import snake from "../../assets/snake.PNG";
+import volumeModerator from "../../assets/volumeModerator.PNG";
+import mapf from "../../assets/MAPF.png";
+import fitbet from "../../assets/fitbet.png";
+import nondle from "../../assets/nondle.PNG";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 export default function ProjectSection() {
 	const projects = [
-		{ image_path: comingSoon, text: "Project 1" },
-		{ image_path: comingSoon, text: "Project 2" },
-		{ image_path: comingSoon, text: "Project 3" },
-		{ image_path: comingSoon, text: "Project 4" },
-		{ image_path: comingSoon, text: "Project 5" },
-		// Add more projects as needed
+		{
+			image_path: snake,
+			text: "Snake AI",
+			link: "https://eligottlieb.github.io/",
+		},
+		{
+			image_path: volumeModerator,
+			text: "Volume Moderator",
+			link: "https://github.com/ckbarrett/VolumeModerator/tree/main",
+		},
+		{
+			image_path: fitbet,
+			text: "FitBet",
+			link: "https://github.com/greengro/FitBet",
+		},
+		{
+			image_path: mapf,
+			text: "Multi Agent Path Finding",
+			link: "https://github.com/ckbarrett/CSCI360_Project3",
+		},
+		{
+			image_path: nondle,
+			text: "Nondle",
+			link: "https://github.com/ckbarrett/Nondle",
+		},
 	];
 
 	const responsive = {
@@ -50,7 +73,11 @@ export default function ProjectSection() {
 								src={project.image_path}
 								alt={project.text}
 							/>
-							<p className={styles.card_text}>{project.text}</p>
+							<a href={project.link}>
+								<p className={styles.card_text}>
+									{project.text}
+								</p>
+							</a>
 						</div>
 					))}
 				</Carousel>

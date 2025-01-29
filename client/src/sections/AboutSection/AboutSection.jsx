@@ -1,6 +1,7 @@
 import pfp from "../../assets/pfp.jpg";
 import styles from "./AboutSection.module.css";
 import cx from "classnames";
+import { React } from "react";
 
 export default function AboutSection() {
 	return (
