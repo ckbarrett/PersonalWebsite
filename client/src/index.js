@@ -11,6 +11,7 @@ import TitleSection from "./sections/TitleSection/TitleSection";
 import AboutSection from "./sections/AboutSection/AboutSection";
 import ProjectSection from "./sections/ProjectSection/ProjectSection";
 import ResumeSection from "./sections/ResumeSection/ResumeSection";
+import FooterSection from "./sections/FooterSection/FooterSection";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -21,5 +22,6 @@ root.render(
 		<AboutSection />
 		<ProjectSection />
 		<ResumeSection />
+		<FooterSection />
 	</React.StrictMode>
 );

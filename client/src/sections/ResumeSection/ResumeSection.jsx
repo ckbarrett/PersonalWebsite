@@ -26,6 +26,9 @@ const ResumeSection = () => {
 				>
 					Download Resume
 				</a>
+				<div className={styles.scroll_container}>
+					<a class="fa fa-angle-down page-scroll" href="#footer"></a>
+				</div>
 			</div>
 		</div>
 	);

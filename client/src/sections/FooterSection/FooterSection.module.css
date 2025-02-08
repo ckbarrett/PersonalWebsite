@@ -1,0 +1,34 @@
+.section_container {
+	background-color: #161516;
+}
+
+.image_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image {
+	margin: 1rem;
+	height: 2rem;
+	width: fit-content;
+}
+
+.text_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: "Oswald";
+	font-style: italic;
+}
+
+.text {
+	font-size: medium;
+	margin: 0.5rem 1rem;
+}
+
+.small_image {
+	width: 1rem;
+	height: fit-content;
+}

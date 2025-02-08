@@ -49,7 +49,9 @@ export default function Navbar() {
 							<MDBNavbarLink href="#resume">Resume</MDBNavbarLink>
 						</MDBNavbarItem>
 						<MDBNavbarItem>
-							<MDBNavbarLink href="#">Contact</MDBNavbarLink>
+							<MDBNavbarLink href="#footer">
+								Contact
+							</MDBNavbarLink>
 						</MDBNavbarItem>
 					</MDBNavbarNav>
 				</MDBCollapse>
