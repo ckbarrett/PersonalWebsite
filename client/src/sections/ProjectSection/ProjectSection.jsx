@@ -59,7 +59,7 @@ export default function ProjectSection() {
 				</div>
 				<Carousel
 					className={styles.carousel}
-					swipeable={true}
+					swipeable={false}
 					draggable={false}
 					showDots={true}
 					responsive={responsive}

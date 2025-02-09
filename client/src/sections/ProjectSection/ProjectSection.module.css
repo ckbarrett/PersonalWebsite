@@ -17,7 +17,7 @@
 }
 
 .section_container {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: rgb(253, 252, 234);
 }
 
@@ -28,8 +28,7 @@
 	}
 
 	.carousel_container {
-		position: relative;
-		top: calc(40% - 40vw / 2);
+		padding-top: calc(40vh - 40vw / 2);
 	}
 }
 
@@ -39,8 +38,7 @@
 		height: 30vw;
 	}
 	.carousel_container {
-		position: relative;
-		top: 10vh;
+		padding-top: 12vh;
 	}
 }
 

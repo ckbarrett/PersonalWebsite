@@ -1,6 +1,6 @@
 .section_container {
 	background-color: #faf9f6;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -8,6 +8,7 @@
 }
 .content_container {
 	padding: 2rem;
+	padding-bottom: 0;
 	display: flex;
 	align-items: center;
 }
