@@ -15,8 +15,8 @@ const ResumeSection = () => {
 		<div id="resume" className={styles.sectionContainer}>
 			<div id="resume" className={styles.resumeSection}>
 				<div className={styles.highlights}>
-					{resumeHighlights.map((highlight) => (
-						<p>{highlight}</p>
+					{resumeHighlights.map((highlight, index) => (
+						<p key={index}>{highlight}</p>
 					))}
 				</div>
 				<a
@@ -27,7 +27,9 @@ const ResumeSection = () => {
 					Download Resume
 				</a>
 				<div className={styles.scroll_container}>
-					<a class="fa fa-angle-down page-scroll" href="#footer"></a>
+					<a className="fa fa-angle-down page-scroll" href="#footer">
+						{" "}
+					</a>
 				</div>
 			</div>
 		</div>

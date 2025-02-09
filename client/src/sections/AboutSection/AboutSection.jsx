@@ -30,7 +30,9 @@ export default function AboutSection() {
 				</div>
 			</div>
 			<div className={styles.scroll_container}>
-				<a class="fa fa-angle-down page-scroll" href="#projects"></a>
+				<a className="fa fa-angle-down page-scroll" href="#projects">
+					{" "}
+				</a>
 			</div>
 		</div>
 	);

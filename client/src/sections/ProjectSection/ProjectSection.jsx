@@ -54,17 +54,22 @@ export default function ProjectSection() {
 	return (
 		<div id="projects" className={styles.section_container}>
 			<div className={styles.carousel_container}>
+				<div className={styles.title_container}>
+					<h1>Projects</h1>
+				</div>
 				<Carousel
 					className={styles.carousel}
-					swipeable={false}
+					swipeable={true}
 					draggable={false}
 					showDots={true}
 					responsive={responsive}
 					ssr={true} // means to render carousel on server-side.
 					infinite={true}
-					autoPlaySpeed={1000}
+					autoPlaySpeed={2000}
 					keyBoardControl={true}
 					centerMode={true}
+					autoPlay={true}
+					removeArrowOnDeviceType={["tablet", "mobile"]}
 				>
 					{projects.map((project) => (
 						<div className={styles.card} key={project.text}>
@@ -82,7 +87,9 @@ export default function ProjectSection() {
 					))}
 				</Carousel>
 				<div className={styles.scroll_container}>
-					<a class="fa fa-angle-down page-scroll" href="#resume"></a>
+					<a className="fa fa-angle-down page-scroll" href="#resume">
+						{" "}
+					</a>
 				</div>
 			</div>
 		</div>

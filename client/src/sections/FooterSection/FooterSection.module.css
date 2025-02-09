@@ -1,5 +1,5 @@
 .section_container {
-	background-color: #161516;
+	background-color: #212121;
 }
 
 .image_container {
@@ -12,6 +12,7 @@
 	margin: 1rem;
 	height: 2rem;
 	width: fit-content;
+	caret-color: transparent;
 }
 
 .text_container {
@@ -26,6 +27,7 @@
 .text {
 	font-size: medium;
 	margin: 0.5rem 1rem;
+	text-align: center;
 }
 
 .small_image {

@@ -1,41 +1,75 @@
-  .card {
-    padding-bottom: 1.5rem;
-    text-align: center;
-    font-family: 'Oswald';
-  }
-  
-  .card_image {
-    border-radius: 5%;
-    width: 30vw;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
-    0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow effect */
-    caret-color: transparent;
-  }
+.card {
+	padding-bottom: 1.5rem;
+	text-align: center;
+	font-family: "Oswald";
+}
 
-  .card_text {
-    font-size: x-large;
-  }
+.card_image {
+	border-radius: 5%;
+	display: block;
+	margin: 10px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow effect */
+	caret-color: transparent;
+}
 
-  .section_container {
-    padding: 2rem 0 2rem 0;
-    height:100vh;
-    background-color: rgb(253, 252, 234);
-  }
+.card_text {
+	font-size: x-large;
+}
 
-  .carousel_container {
-    margin-top: 8vh;
-  }
+.section_container {
+	height: 100vh;
+	background-color: rgb(253, 252, 234);
+}
 
-  .scroll_container {
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-  .scroll_container a{
-    color: black;
-    font-size: xx-large;
-  }
- 
+@media screen and (max-width: 1400px) {
+	.card_image {
+		width: 40vw;
+		height: 40vw;
+	}
+
+	.carousel_container {
+		position: relative;
+		top: calc(40% - 40vw / 2);
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.card_image {
+		width: 30vw;
+		height: 30vw;
+	}
+	.carousel_container {
+		position: relative;
+		top: 10vh;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.title_container {
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.title_container {
+		display: none;
+	}
+}
+
+.title_container {
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	font-family: "Oswald";
+	font-size: xx-large;
+}
+
+.scroll_container {
+	padding-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+.scroll_container a {
+	color: black;
+	font-size: xx-large;
+}
