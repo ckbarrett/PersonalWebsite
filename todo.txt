@@ -1,0 +1,10 @@
+TODO:
+- Fork Jimmy and host at snake.ckbarrett.com
+- Clean up Nondle and host at nondle.ckbarrett.com
+- Shrink text/clean up picture in about section (from Tess)
+- Change resume button (from Tess)
+- Take away contact section so it's not confusing, put buttons somewhere else but okay to duplicate with footer
+- Possible bug: page not found on linkedin link
+- Consider embedding resume into website - or link out to subpage with embedded resume
+- More visual effects - eye candy! 
+- Consider adding Theta Tau to about? 
