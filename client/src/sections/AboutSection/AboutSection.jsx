@@ -1,4 +1,4 @@
-import pfp from "../../assets/pfp.jpg";
+import pfp from "../../assets/pfp.png";
 import styles from "./AboutSection.module.css";
 import cx from "classnames";
 import { React } from "react";

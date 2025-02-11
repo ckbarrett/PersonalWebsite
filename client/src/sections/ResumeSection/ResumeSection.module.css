@@ -36,6 +36,7 @@
 	}
 	.downloadLink {
 		font-size: xx-large;
+		margin-top: 10vh;
 	}
 
 	.highlights p:first-of-type {
@@ -63,6 +64,7 @@
 	}
 	.downloadLink {
 		font-size: x-large;
+		margin-top: 3vh;
 	}
 }
 
@@ -84,7 +86,6 @@
 }
 
 .downloadLink {
-	margin-top: 10vh;
 	display: inline-block;
 	padding: 10px 50px;
 	color: #fff;

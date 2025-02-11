@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./ProjectSection.module.css";
-import snake from "../../assets/snake.PNG";
-import volumeModerator from "../../assets/volumeModerator.PNG";
+import snake from "../../assets/snake.png";
+import volumeModerator from "../../assets/volumeModerator.png";
 import mapf from "../../assets/MAPF.png";
 import fitbet from "../../assets/fitbet.png";
-import nondle from "../../assets/nondle.PNG";
+import nondle from "../../assets/nondle.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -59,7 +59,7 @@ export default function ProjectSection() {
 				</div>
 				<Carousel
 					className={styles.carousel}
-					swipeable={true}
+					swipeable={false}
 					draggable={false}
 					showDots={true}
 					responsive={responsive}
