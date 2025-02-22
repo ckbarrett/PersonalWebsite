@@ -73,12 +73,13 @@ export default function ProjectSection() {
 				>
 					{projects.map((project) => (
 						<div className={styles.card} key={project.text}>
+							<a href={project.link}>
 							<img
 								className={styles.card_image}
 								src={project.image_path}
 								alt={project.text}
 							/>
-							<a href={project.link}>
+							
 								<p className={styles.card_text}>
 									{project.text}
 								</p>

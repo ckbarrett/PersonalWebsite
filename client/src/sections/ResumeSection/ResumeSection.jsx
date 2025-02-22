@@ -22,15 +22,9 @@ const ResumeSection = () => {
 				<a
 					href={resume}
 					className={styles.downloadLink}
-					download="Christian_Barrett_Resume.pdf"
 				>
-					Download Resume
+					View Resume
 				</a>
-				<div className={styles.scroll_container}>
-					<a className="fa fa-angle-down page-scroll" href="#footer">
-						{" "}
-					</a>
-				</div>
 			</div>
 		</div>
 	);
