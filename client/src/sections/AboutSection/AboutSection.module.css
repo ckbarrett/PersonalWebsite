@@ -40,9 +40,10 @@
 	.text_container {
 		font-size: large;
 		padding: 1rem;
+		max-width: 90%;
 	}
 	.image_container {
-		max-width: 70%;
+		max-width: 80%;
 	}
 }
 @media screen and (min-width: 800px) {
@@ -57,6 +58,7 @@
 	}
 	.text_container {
 		font-size: xx-large;
+		max-width: unset;
 	}
 	.text_container p2 {
 		font-size: x-large;

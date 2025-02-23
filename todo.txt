@@ -1,7 +1,5 @@
 TODO:
-- Fork Jimmy and host at snake.ckbarrett.com
 - Clean up Nondle and host at nondle.ckbarrett.com
-- Fix content width for about section on mobile
 
 Maybe:
 - Consider adding Theta Tau to about? 
@@ -15,3 +13,5 @@ DONE:
 - Change resume button (from Tess)
 - Consider embedding resume into website - or link out to subpage with embedded resume
 - More visual effects - eye candy! 
+- Fork Jimmy and host at snake.ckbarrett.com
+- Fix content width for about section on mobile
