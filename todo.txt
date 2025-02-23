@@ -1,4 +1,6 @@
 TODO:
+- About section content width looks really awkward for medium screen sizes
+- Resume animations broke for some reason
 - Clean up Nondle and host at nondle.ckbarrett.com
 
 Maybe:
