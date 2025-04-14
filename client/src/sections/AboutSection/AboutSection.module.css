@@ -38,11 +38,12 @@
 		flex-direction: column;
 	}
 	.text_container {
-		font-size: x-large;
+		font-size: large;
 		padding: 1rem;
+		max-width: 90%;
 	}
 	.image_container {
-		max-width: 70%;
+		max-width: 80%;
 	}
 }
 @media screen and (min-width: 800px) {
@@ -57,6 +58,7 @@
 	}
 	.text_container {
 		font-size: xx-large;
+		max-width: unset;
 	}
 	.text_container p2 {
 		font-size: x-large;
@@ -64,12 +66,17 @@
 }
 
 .image_container img {
-	border-radius: 3%;
 	caret-color: transparent;
 	width: 100%;
 	height: auto;
 	display: block;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Add shadow effect */
+	transition: box-shadow 0.3s ease; /* Smooth transition */
+	border-radius: 3px;
+}
+
+.image_container img:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.19); /* Enhance shadow on hover */
 }
 
 .text_container {
@@ -84,10 +91,6 @@
 
 .text_container b {
 	color: #f12c0e;
-}
-
-.text_container .meta {
-	color: #0080fb;
 }
 
 .scroll_container {

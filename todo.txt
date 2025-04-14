@@ -1,10 +1,19 @@
 TODO:
-- Fork Jimmy and host at snake.ckbarrett.com
+- About section content width looks really awkward for medium screen sizes
+- Resume animations broke for some reason
 - Clean up Nondle and host at nondle.ckbarrett.com
+
+Maybe:
+- Consider adding Theta Tau to about? 
+- Possible bug: page not found on linkedin link
+    - Apparently it breaks if not logged in. Not sure how to fix this.
+
+DONE:
+- Take away contact section so it's not confusing, put buttons somewhere else but okay to duplicate with footer
+- Make the pictures links in project section
 - Shrink text/clean up picture in about section (from Tess)
 - Change resume button (from Tess)
-- Take away contact section so it's not confusing, put buttons somewhere else but okay to duplicate with footer
-- Possible bug: page not found on linkedin link
 - Consider embedding resume into website - or link out to subpage with embedded resume
 - More visual effects - eye candy! 
-- Consider adding Theta Tau to about? 
+- Fork Jimmy and host at snake.ckbarrett.com
+- Fix content width for about section on mobile

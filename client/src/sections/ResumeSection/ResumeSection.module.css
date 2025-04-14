@@ -13,17 +13,48 @@
 	font-family: "Oswald";
 }
 
-@keyframes riseIn {
+@keyframes scrollInLeft {
 	from {
 		opacity: 0;
-		transform: translateY(50vh); /* End at the original position */
+		transform: translateX(30vw); /* End at the original position */
+	}
+}
+
+@keyframes scrollInRight {
+	from {
+		opacity: 0;
+		transform: translateX(-30vw); /* End at the original position */
 	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
-	.highlights p {
+	.highlights p:first-of-type {
+		animation: scrollInLeft;
 		view-timeline-name: --item-timeline;
-		animation: riseIn;
+		animation-timeline: --item-timeline;
+		animation-range: contain -5% contain 40%;
+	}
+	.highlights p:nth-of-type(2) {
+		animation: scrollInRight;
+		view-timeline-name: --item-timeline;
+		animation-timeline: --item-timeline;
+		animation-range: contain -5% contain 40%;
+	}
+	.highlights p:nth-of-type(3) {
+		animation: scrollInLeft;
+		view-timeline-name: --item-timeline;
+		animation-timeline: --item-timeline;
+		animation-range: contain -5% contain 40%;
+	}
+	.highlights p:nth-of-type(4) {
+		animation: scrollInRight;
+		view-timeline-name: --item-timeline;
+		animation-timeline: --item-timeline;
+		animation-range: contain -5% contain 40%;
+	}
+	.highlights p:nth-of-type(5) {
+		animation: scrollInLeft;
+		view-timeline-name: --item-timeline;
 		animation-timeline: --item-timeline;
 		animation-range: contain -5% contain 40%;
 	}
@@ -89,20 +120,22 @@
 	display: inline-block;
 	padding: 10px 50px;
 	color: #fff;
-	background-color: #007bff;
-	border-radius: 10px;
+	background: linear-gradient(135deg, #0092e6, #004080, #6b00b3);
+	border-radius: 30px;
 	text-decoration: none;
-	transition: background-color 0.3s;
+	transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+	box-shadow: 0 7px 14px rgba(0, 0, 0, 0.2);
+	border: 6px solid #fff;
 }
 
 .downloadLink:hover {
 	color: #fff;
-	background-color: #0056b3;
+	background: linear-gradient(135deg, #006faf, #00305f, #4e0083);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.scroll_container a {
-	margin-top: 1rem;
-	color: black;
-	font-size: xx-large;
-	caret-color: transparent;
+@media (prefers-reduced-motion: no-preference) {
+	.downloadLink:hover {
+		transform: translateY(-2px);
+	}
 }

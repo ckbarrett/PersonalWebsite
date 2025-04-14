@@ -11,6 +11,7 @@ import {
 	MDBIcon,
 } from "mdb-react-ui-kit";
 import Signature from "../../assets/signature.png";
+import Links from "../Links/Links"
 
 export default function Navbar() {
 	const [showNav, setShowNav] = useState(false);
@@ -48,14 +49,10 @@ export default function Navbar() {
 						<MDBNavbarItem>
 							<MDBNavbarLink href="#resume">Resume</MDBNavbarLink>
 						</MDBNavbarItem>
-						<MDBNavbarItem>
-							<MDBNavbarLink href="#footer">
-								Contact
-							</MDBNavbarLink>
-						</MDBNavbarItem>
 					</MDBNavbarNav>
 				</MDBCollapse>
 			</MDBContainer>
+			<Links hideOnMobile={true}/>
 		</MDBNavbar>
 	);
 }

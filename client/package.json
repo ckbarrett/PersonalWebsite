@@ -11,7 +11,8 @@
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.5",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "typewriter-effect": "^2.21.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
